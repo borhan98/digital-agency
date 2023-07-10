@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant', serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+:root {
+    --font-light: #f2f2f2;
+    --font-dark: #1a1a1a;
+}
+/*-------------------------------------------
+        Header Section Start Start
+---------------------------------------------*/
+#header {
+    background: #D5D2D2;
+    padding: 30px 0;
+}
+.head_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head_wrapper .logo {
+    display: flex;
+    align-items: center;
+}
+.head_wrapper .logo p {
+    color: var(--font-dark);
+}
+.head_wrapper .nav ul {
+    display: flex;
+    gap: 20px;
+}
+.head_wrapper .nav ul li a {
+    color: #1a1a1a;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+/*-------------------------------------------
+        Header Section Start Here
+---------------------------------------------*/
+/*-------------------------------------------
+        Banner Section Start Here
+---------------------------------------------*/
+#banner {
+    height: 90vh;
+    background: url('../image/background.jpg'), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+#banner .bnr_content {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bnr_content .bnr_title {
+    font-size: 54px;
+    font-weight: 700;
+    color: var(--font-light);
+}
+.bnr_content .bnr_title .digital {
+    color: #F94C30;
+}
+.bnr_content .descrip {
+    color: var(--font-light);
+    font-size: 18px;
+    margin: 15px 0;
+}
+.btn_common {
+    display: inline-block;
+    width: 150px;
+    padding: 12px 0;
+    background: #F94C30;
+    text-transform: uppercase;
+    color: var(--font-light);
+    transition: all 0.5s ease;
+}
+.btn_common:hover {
+    background: var(--font-light);
+    color: #F94C30;
+}
+/*-------------------------------------------
+        Banner Section End Here
+---------------------------------------------*/
